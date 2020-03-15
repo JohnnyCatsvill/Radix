@@ -18,7 +18,7 @@ bool isUnsignedIntegerNumber(string in)
 	{
 		ch = in.front();
 		in.pop_back();
-		if (!(0 <= ch <= 9))
+		if ('0' > ch or ch > '9')
 		{
 			return false;
 		}
