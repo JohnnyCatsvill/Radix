@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-const int notEnoughArguments = 0;
+const int notEnoughArguments = 5;
 const int currentNotationIsNotANumber = 1;
 const int destinationNotationIsNotANumber = 2;
 const int currentNotationOutOfRange = 3;
